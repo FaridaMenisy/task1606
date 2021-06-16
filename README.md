@@ -4,11 +4,10 @@
 
 It's a sample project that created with MVVM architecture using jetcpack components e.g(ViewModel, LiveData)
 
-**Brief** : App consists of three screens (master)
-       1-Splash Screen
-       2-Main Screen(displaying list of articles)
+**Brief** : App consists of 2 screens (Splash/Master)
+    
       
-      
+     
 **Steps** :
   
     1-When App runs, service that provides charts data is called and you see loading till data returns.
