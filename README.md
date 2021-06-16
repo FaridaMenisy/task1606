@@ -21,7 +21,7 @@ It's a sample project that created with MVVM architecture using jetcpack compone
 
 **Object oriented Programming**
 
-**SOLID Prinicples **
+**SOLID Prinicples**
 
 **Retrofit**
 
@@ -46,21 +46,12 @@ It's a sample project that created with MVVM architecture using jetcpack compone
        
     
           
-**Run test cases**          
 
-
-<img width="374" alt="Screen Shot 2021-05-29 at 4 57 48 AM" src="https://user-images.githubusercontent.com/26609049/120056183-e191d880-c03a-11eb-9419-1f7095b70e80.png">
-
-If you choose run with coverage, you get to see the coverage percentage of each package.
-<img width="761" alt="Screen Shot 2021-05-29 at 5 00 51 AM" src="https://user-images.githubusercontent.com/26609049/120056184-e2c30580-c03a-11eb-9341-6cd7e999f7bb.png">
 
 
 
 <h2>SnapShots</h2>
 
-![image](https://user-images.githubusercontent.com/26609049/120055685-fa4cbf00-c037-11eb-9c92-5557403ab272.png)
-![WhatsApp Image 2021-05-29 at 4 29 42 AM (1)](https://user-images.githubusercontent.com/26609049/120055492-c91fbf00-c036-11eb-9a0e-5635c53fa066.jpeg)
-![WhatsApp Image 2021-05-29 at 4 29 42 AM (2)](https://user-images.githubusercontent.com/26609049/120055497-cc1aaf80-c036-11eb-82cf-cff9d9c7007e.jpeg)
 
 
 
