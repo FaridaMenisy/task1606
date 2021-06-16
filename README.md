@@ -54,8 +54,7 @@ It's a sample project that created with MVVM architecture using jetcpack compone
           Destination directoty for unit testing app\src\test
 
        
-    
-          <img width="324" alt="Screen Shot 2021-06-16 at 7 09 10 AM" src="https://user-images.githubusercontent.com/26609049/122161339-d845a000-ce71-11eb-9fa0-93c4b884344f.png">
+
 
 
 
@@ -65,5 +64,6 @@ It's a sample project that created with MVVM architecture using jetcpack compone
 ![WhatsApp Image 2021-06-16 at 7 07 28 AM](https://user-images.githubusercontent.com/26609049/122161202-97e62200-ce71-11eb-85ef-5a44bc1a6dc9.jpeg)
 
 
-
+    
+          <img width="324" alt="Screen Shot 2021-06-16 at 7 09 10 AM" src="https://user-images.githubusercontent.com/26609049/122161339-d845a000-ce71-11eb-9fa0-93c4b884344f.png">
 
