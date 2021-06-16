@@ -55,7 +55,7 @@ It's a sample project that created with MVVM architecture using jetcpack compone
 
        
     
-          
+          <img width="324" alt="Screen Shot 2021-06-16 at 7 09 10 AM" src="https://user-images.githubusercontent.com/26609049/122161339-d845a000-ce71-11eb-9fa0-93c4b884344f.png">
 
 
 
