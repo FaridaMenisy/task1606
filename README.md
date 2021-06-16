@@ -40,8 +40,11 @@ It's a sample project that created with MVVM architecture using jetcpack compone
 **Clean code Archtiecture**
 
 **Multi modular structure** : Not actaully used but just to show concept and hierarchy 
+
                               Common Module : acts as a library and its dependency added to other modules
+                              
                               Feature Module : acts as a separate Feature APK
+                              
                               App Module : separate APK as well
 
 **Unit testing** : Local unit testing using Mockito and Junit was used for coroutines test
