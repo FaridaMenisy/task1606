@@ -39,6 +39,8 @@ It's a sample project that created with MVVM architecture using jetcpack compone
 
 **Clean code Archtiecture**
 
+**Handling loading and error**
+
 **Multi modular structure** : Not actaully used but just to show concept and hierarchy 
 
                               Common Module : acts as a library and its dependency added to other modules
