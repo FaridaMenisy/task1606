@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.example.myapplication.presentation.main.ChartsViewModel" />
+    </data>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".presentation.main.MainActivity">
+
+
+        <include
+            android:id="@+id/progress_circular"
+            layout="@layout/progress_layout"
+            app:viewModel="@{viewModel}" />
+
+        <include
+            android:id="@+id/error_view"
+            layout="@layout/error_view_layout"
+            app:viewModel="@{viewModel}" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/cvChart"
+            app:layout_constraintEnd_toEndOf="@+id/cvChart"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            tools:text = "Description"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/cvChart"
+            app:textData ="@{viewModel.chartsLiveData}"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvChart"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="20dp"
+            android:visibility="gone"
+            app:cardCornerRadius="6dp"
+            app:cardViewVisibility="@{viewModel.chartsLiveData}"
+            app:layout_constraintHeight_percent="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+            tools:visibility="visible">
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/lineChartView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:fillLineChartData="@{viewModel.chartsLiveData}" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvData"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:spanCount="2"
+            tools:listitem="@layout/item_card"
+            app:layout_constraintStart_toStartOf="@+id/cvChart"
+            app:layout_constraintTop_toBottomOf="@+id/cvChart" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+</layout>
